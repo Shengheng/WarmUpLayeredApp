@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="f7b28ab5-bea7-45f3-882a-9f5cdab91991" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:63665/SvsPerson.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SvsPerson.xsd" MetadataType="Schema" ID="cd1fbddd-a925-42d0-91e7-eceeb0ee2f32" SourceId="1" SourceUrl="http://localhost:63665/SvsPerson.svc?xsd=xsd0" />
+    <MetadataFile FileName="SvsPerson1.xsd" MetadataType="Schema" ID="5dbf5325-a9d6-42c8-ae2b-7f268d1e20e9" SourceId="1" SourceUrl="http://localhost:63665/SvsPerson.svc?xsd=xsd1" />
+    <MetadataFile FileName="SvsPerson2.xsd" MetadataType="Schema" ID="a10e5629-5afc-4b3c-81f2-d681b2b2de25" SourceId="1" SourceUrl="http://localhost:63665/SvsPerson.svc?xsd=xsd2" />
+    <MetadataFile FileName="SvsPerson.disco" MetadataType="Disco" ID="32caa269-def6-4964-8baf-26ddaf442de3" SourceId="1" SourceUrl="http://localhost:63665/SvsPerson.svc?disco" />
+    <MetadataFile FileName="SvsPerson.wsdl" MetadataType="Wsdl" ID="c0426041-0921-4bcd-bc5a-e599feb7d4ce" SourceId="1" SourceUrl="http://localhost:63665/SvsPerson.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
